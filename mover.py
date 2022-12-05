@@ -6,7 +6,7 @@ from time import sleep
 
 # Initialize configParser # 
 config = configparser.ConfigParser()
-config.read("config2.ini")
+config.read("config.ini")
 
 # All Paths #
 RawFlashDir = config["Default"]["flashpath"] + "\\07_0x805EC000_PFlash.bin"
